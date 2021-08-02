@@ -1,0 +1,56 @@
+<div class="container">
+        <img src="/images/logo2.jpg" height="60px" width="60px" alt=""> <span>Wind-Style.</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span ><i id="bar" class="fas fa-bars"></i></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fal fa-search"></i>
+                    <i class="fal fa-shopping-bag"></i>
+                </li>
+        </div>
+    </div> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" /> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    
+    
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> --> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+      button {
+                        font-size: 0.7rem;
+                        font-weight: 800;
+                        outline: none;
+                        border: solid 2px rgb(255, 108, 132);
+                        cursor: pointer;
+                        padding: 10px 30px;
+                        text-transform: uppercase;
+                        transition: all 0.3s ease;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        transform: translateY(20px);
+                        opacity: 0;
+                    }
+                    
+                    button {
+                        background: rgb(255, 108, 132);
+                        color: #fff;
+                        transform: translateY(0);
+                        opacity: 1;
+                    }
